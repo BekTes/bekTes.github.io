@@ -133,7 +133,7 @@ function actionPage(){
 function getData(){
     const goodsWrapper = document.querySelector('.goods');
     
-    return fetch('../db/db.json')
+    return fetch('https://bektes.github.io/db/db.json')
     .then((response)=>{
        if(response.ok){
            return response.json();
