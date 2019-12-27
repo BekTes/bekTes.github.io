@@ -180,7 +180,8 @@ function renderCards(data){
 function renderCatalog(){
     const cards = document.querySelectorAll('.goods .card'),
         catalogWrapper = document.querySelector('.catalog'),
-        catalogList = document.querySelector('.catalog-button'),
+        catalogList = document.querySelector('.catalog-list'),
+        catalogBtn = document.querySelector('.catalog-button')
         categories = new Set();
 
     cards.forEach((card)=>{
